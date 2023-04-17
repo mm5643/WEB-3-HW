@@ -9,11 +9,11 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/assets\/john-deere-1956-logo-19AF2AFF6E-seeklogo.com.png" : {
+    "\/assets\/image\/companylogo.png" : {
       "ft" : 32768,
       "iS" : 15231,
       "oA" : 0,
-      "oAP" : "\/assets\/john-deere-1956-logo-19AF2AFF6E-seeklogo.com.png",
+      "oAP" : "\/assets\/image\/companylogo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,32 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/Tractor 1.jpg" : {
+    "\/assets\/image\/facebook-square-brands.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/image\/facebook-square-brands.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/image\/instagram-square-brands.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/image\/instagram-square-brands.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/image\/Tractor 1.jpg" : {
       "ft" : 16384,
       "iS" : 196416,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 1.jpg",
+      "oAP" : "\/assets\/image\/Tractor 1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,12 +55,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 2.jpeg" : {
+    "\/assets\/image\/Tractor 2.jpeg" : {
       "ft" : 16384,
       "iS" : 200411,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 2.jpg",
+      "oAP" : "\/assets\/image\/Tractor 2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -48,11 +68,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 3.png" : {
+    "\/assets\/image\/Tractor 3.png" : {
       "ft" : 32768,
       "iS" : 591732,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 3.png",
+      "oAP" : "\/assets\/image\/Tractor 3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -61,12 +81,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/assets\/Tractor 4.jpeg" : {
+    "\/assets\/image\/Tractor 4.jpeg" : {
       "ft" : 16384,
       "iS" : 325732,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 4.jpg",
+      "oAP" : "\/assets\/image\/Tractor 4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -74,12 +94,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 5.jpeg" : {
+    "\/assets\/image\/Tractor 5.jpeg" : {
       "ft" : 16384,
       "iS" : 172612,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 5.jpg",
+      "oAP" : "\/assets\/image\/Tractor 5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -87,12 +107,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 6.jpeg" : {
+    "\/assets\/image\/Tractor 6.jpeg" : {
       "ft" : 16384,
       "iS" : 278795,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 6.jpg",
+      "oAP" : "\/assets\/image\/Tractor 6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -100,12 +120,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 7.jpeg" : {
+    "\/assets\/image\/Tractor 7.jpeg" : {
       "ft" : 16384,
       "iS" : 375789,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 7.jpg",
+      "oAP" : "\/assets\/image\/Tractor 7.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -113,12 +133,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 8.jpeg" : {
+    "\/assets\/image\/Tractor 8.jpeg" : {
       "ft" : 16384,
       "iS" : 339898,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 8.jpg",
+      "oAP" : "\/assets\/image\/Tractor 8.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -126,12 +146,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 9.jpeg" : {
+    "\/assets\/image\/Tractor 9.jpeg" : {
       "ft" : 16384,
       "iS" : 599579,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 9.jpg",
+      "oAP" : "\/assets\/image\/Tractor 9.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -139,18 +159,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Tractor 10.jpg" : {
+    "\/assets\/image\/Tractor 10.jpg" : {
       "ft" : 16384,
       "iS" : 176455,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Tractor 10.jpg",
+      "oAP" : "\/assets\/image\/Tractor 10.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/image\/twitter-square-brands.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/image\/twitter-square-brands.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/assets\/image\/youtube-square-brands.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/image\/youtube-square-brands.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -163,6 +203,149 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/companylogo.png" : {
+      "ft" : 32768,
+      "iS" : 15231,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/companylogo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 1.jpg" : {
+      "ft" : 16384,
+      "iS" : 196416,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 200411,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 3.png" : {
+      "ft" : 32768,
+      "iS" : 591732,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 4.jpeg" : {
+      "ft" : 16384,
+      "iS" : 325732,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 5.jpeg" : {
+      "ft" : 16384,
+      "iS" : 172612,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 6.jpeg" : {
+      "ft" : 16384,
+      "iS" : 278795,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 7.jpeg" : {
+      "ft" : 16384,
+      "iS" : 375789,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 8.jpeg" : {
+      "ft" : 16384,
+      "iS" : 339898,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 8.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 9.jpeg" : {
+      "ft" : 16384,
+      "iS" : 599579,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Tractor 10.jpg" : {
+      "ft" : 16384,
+      "iS" : 176455,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Tractor 10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -199,11 +382,19 @@
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
+    "\/dev\/global\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/header.html",
+      "oF" : 0
+    },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -220,8 +411,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -229,8 +420,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -393,8 +584,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

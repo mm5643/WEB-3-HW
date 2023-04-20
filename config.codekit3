@@ -273,6 +273,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/sort-up-solid.png" : {
+      "ft" : 32768,
+      "iS" : 212,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/sort-up-solid.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/Tractor 1.jpg" : {
       "ft" : 16384,
       "iS" : 196416,

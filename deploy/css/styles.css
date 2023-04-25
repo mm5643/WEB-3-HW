@@ -327,6 +327,11 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .tractor-images {
   width: 100%;
 }
@@ -411,7 +416,7 @@ form > div {
   grid-template-columns: 100%;
   grid-template-areas: "tractor1";
 }
-#hero1 div {
+#hero1 > div {
   grid-area: tractor1;
 }
 

@@ -4,23 +4,11 @@
 
 #hero1{
     display: grid;
-    grid-auto-columns: 50% auto;
+    grid-template-columns: 100%;
+    grid-template-areas: "tractor1";
     
-    grid-template-areas: 
-        "tractor1 tractor1"
-        "aside1 aside2";
-    
-
-    #tractor1{
+    div{
         grid-area: tractor1;
-    }
-
-    #aside1{
-        grid-area: aside1;
-    }
-
-    #aside2{
-        grid-area: aside2;
     }
 
 }

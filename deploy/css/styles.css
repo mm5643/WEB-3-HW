@@ -327,6 +327,14 @@ template {
 /* =============
     Base
 ============= */
+.tractor-images {
+  width: 100%;
+}
+
+.large-images {
+  width: 30%;
+}
+
 /* =============
     Typography
 ============= */
@@ -357,24 +365,90 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: #330F0A;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header";
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header > div {
+  grid-area: header;
+}
+
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+  background-color: #330F0A;
+  -webkit-text-fill-color: white;
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
-    Form
+    hero0
 ============= */
-/* =============
-    Heroes
-============= */
+form {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  grid-template-areas: ". . form11 .";
+}
+form > div {
+  grid-area: form11;
+}
+
 /* =============
     hero1
 ============= */
+#hero1 {
+  display: grid;
+  grid-template-columns: none auto 16px;
+  grid-template-areas: "hero11";
+}
+#hero1 > div {
+  grid-area: hero11;
+}
+
 /* =============
     hero2
 ============= */
+#hero2 {
+  background-color: #330F0A;
+  -webkit-text-fill-color: white;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero22 .";
+}
+#hero2 > div {
+  grid-area: hero22;
+}
+
 /* =============
     hero3
 ============= */
+#hero3 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "gallery";
+}
+#hero3 > div {
+  grid-area: gallery;
+}
+
 /* =============
     hero4
 ============= */
+#hero4 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero44 .";
+}
+#hero4 > div {
+  grid-area: hero44;
+}

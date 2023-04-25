@@ -273,6 +273,16 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/ShapeSearch Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/ShapeSearch Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/sort-up-solid.png" : {
       "ft" : 32768,
       "iS" : 212,
@@ -455,7 +465,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/form.kit" : {
+    "\/dev\/content\/hero0.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -696,7 +706,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_form.scss" : {
+    "\/dev\/scss\/sections\/_hero0.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -705,7 +715,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_form.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero0.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -766,21 +776,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero4.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_heroes.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_heroes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

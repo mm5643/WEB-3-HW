@@ -1,0 +1,20 @@
+/* =============
+    hero0
+============= */
+
+form{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-areas: ". . form11 .";
+
+    >div{
+        grid-area: form11;
+    }
+}
+
+
+
+
+
+
+

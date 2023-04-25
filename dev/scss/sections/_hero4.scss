@@ -3,5 +3,13 @@
 ============= */
 
 #hero4{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero44 .";
+
+    >div{
+        grid-area: hero44;
+
+    }
     
 }

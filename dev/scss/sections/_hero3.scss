@@ -3,5 +3,12 @@
 ============= */
 
 #hero3{
-    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "gallery";
+
+    >div{
+        grid-area: gallery;
+    }
+
 }

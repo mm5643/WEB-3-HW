@@ -2,15 +2,19 @@
     hero1
 ============= */
 
-#hero1{
+#herohalf1{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-areas: "tractor1";
-    
-    >div{
-        grid-area: tractor1;
+}
+
+@include md {
+    #herohalf{
+        display: grid;
+        grid-template-columns: 30% auto;
     }
 
 }
+
+
 
 

@@ -398,6 +398,21 @@ footer {
 footer > div {
   grid-area: footer;
 }
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "f1 f1 f2 f2" "f1 f1 f3 f3";
+  }
+  footer #f1 {
+    grid-area: f1;
+  }
+  footer #f2 {
+    grid-area: f2;
+  }
+  footer #f3 {
+    grid-area: f3;
+  }
+}
 
 /* =============
     hero0
@@ -414,29 +429,39 @@ form > div {
 /* =============
     hero1
 ============= */
-#hero1 {
+#herohalf1 {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-areas: "tractor1";
-}
-#hero1 > div {
-  grid-area: tractor1;
 }
 
+@media (min-width: 768px) {
+  #herohalf {
+    display: grid;
+    grid-template-columns: 30% auto;
+  }
+}
 /* =============
     hero2
 ============= */
 #hero2 {
   background-color: #330F0A;
   -webkit-text-fill-color: white;
+}
+#hero2 aside {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero22 .";
 }
-#hero2 > div {
+#hero2 aside > div {
   grid-area: hero22;
 }
 
+@media (min-width: 768px) {
+  #hero2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
 /* =============
     hero3
 ============= */
@@ -444,11 +469,18 @@ form > div {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "gallery";
+  grid-template-columns: repeat();
 }
 #hero3 > div {
   grid-area: gallery;
 }
 
+@media (min-width: 768px) {
+  #hero3 {
+    display: grid;
+    grid-template-columns: 63% auto;
+  }
+}
 /* =============
     hero4
 ============= */
@@ -459,4 +491,29 @@ form > div {
 }
 #hero4 > div {
   grid-area: hero44;
+}
+#hero4 ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #hero4 ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "t1 t1 t2 t2" "t3 t3 t4 t4" ". t5 t5 .";
+  }
+  #hero4 ul #t1 {
+    grid-area: t1;
+  }
+  #hero4 ul #t2 {
+    grid-area: t2;
+  }
+  #hero4 ul #t3 {
+    grid-area: t3;
+  }
+  #hero4 ul #t4 {
+    grid-area: t4;
+  }
+  #hero4 ul #t5 {
+    grid-area: t5;
+  }
 }

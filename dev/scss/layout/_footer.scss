@@ -11,6 +11,28 @@ footer{
 
     >div{
         grid-area: footer;
-        
     }
+
+    @include md { 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "f1 f1 f2 f2"
+        "f1 f1 f3 f3";
+
+        #f1{
+            grid-area: f1;
+        }
+    
+        #f2{
+            grid-area: f2;
+        }
+    
+        #f3{
+            grid-area: f3;
+        }
+    }
+    
 }
+
+
+

@@ -399,17 +399,17 @@ footer > div {
   grid-area: footer;
 }
 @media (min-width: 768px) {
-  footer > div {
+  footer {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "f1 f1 f2 f2" ".f3 f3.";
+    grid-template-areas: "f1 f1 f2 f2" "f1 f1 f3 f3" "f1 f1 f3 f3";
   }
-  footer > div #foot1 {
+  footer #foot1 {
     grid-area: f1;
   }
-  footer > div #foot2 {
+  footer #foot2 {
     grid-area: f2;
   }
-  footer > div #foot3 {
+  footer #foot3 {
     grid-area: f3;
   }
 }
@@ -440,6 +440,12 @@ form > div {
     grid-template-columns: 30% auto;
   }
 }
+@media (min-width: 1200px) {
+  #herohalf {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
 /* =============
     hero2
 ============= */
@@ -462,6 +468,12 @@ form > div {
     grid-template-columns: 50% auto;
   }
 }
+@media (min-width: 1200px) {
+  #hero2 {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
 /* =============
     hero3
 ============= */
@@ -476,6 +488,12 @@ form > div {
 }
 
 @media (min-width: 768px) {
+  #hero3 {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1200px) {
   #hero3 {
     display: grid;
     grid-template-columns: 63% auto;
@@ -500,6 +518,27 @@ form > div {
   #hero4 ul {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "t1 t1 t2 t2" "t3 t3 t4 t4" ". t5 t5 .";
+  }
+  #hero4 ul #t1 {
+    grid-area: t1;
+  }
+  #hero4 ul #t2 {
+    grid-area: t2;
+  }
+  #hero4 ul #t3 {
+    grid-area: t3;
+  }
+  #hero4 ul #t4 {
+    grid-area: t4;
+  }
+  #hero4 ul #t5 {
+    grid-area: t5;
+  }
+}
+@media (min-width: 1200px) {
+  #hero4 ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "t1 t1 t2 t2 t3 t3" ". t4 t4 t5 t5 .";
   }
   #hero4 ul #t1 {
     grid-area: t1;

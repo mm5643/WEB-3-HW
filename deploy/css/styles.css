@@ -399,17 +399,35 @@ footer > div {
   grid-area: footer;
 }
 @media (min-width: 768px) {
-  footer {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "f1 f1 f2 f2" "f1 f1 f3 f3" "f1 f1 f3 f3";
+  footer > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "f1 f2" "f1 f3" "f1 f3";
   }
-  footer #foot1 {
+  footer > div #foot1 {
     grid-area: f1;
   }
-  footer #foot2 {
+  footer > div #foot2 {
     grid-area: f2;
   }
-  footer #foot3 {
+  footer > div #foot3 {
+    grid-area: f3;
+  }
+}
+@media (min-width: 1200px) {
+  footer > div {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "f1 f2 f3";
+  }
+  footer > div #foot1 {
+    grid-area: f1;
+  }
+  footer > div #foot2 {
+    grid-area: f2;
+  }
+  footer > div #foot3 {
     grid-area: f3;
   }
 }

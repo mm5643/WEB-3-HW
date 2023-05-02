@@ -12,35 +12,60 @@ footer{
 
     >div{
         grid-area: footer;
-    }
-
-    @include md { 
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: 
-        "f1 f1 f2 f2"
-        "f1 f1 f3 f3"
-        "f1 f1 f3 f3";
-
-        #foot1{
-            grid-area: f1;
-        }
+        @include md { 
+            display: grid;
+            //grid-template-columns: 50% auto;
+            
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: 
+            "f1 f2"
+            "f1 f3"
+            "f1 f3";
     
-        #foot2{
-            grid-area: f2;
+            #foot1{
+                grid-area: f1;
+            }
+        
+            #foot2{
+                grid-area: f2;
+            }
+        
+            #foot3{
+                grid-area: f3;
+            }
         }
+
+        @include xl { 
+            display: grid;
+            gap: 16px;
+            //grid-template-columns: 50% auto;
+            
+            grid-template-columns: repeat(3,1fr);
+            grid-template-areas: 
+            "f1 f2 f3";
     
-        #foot3{
-            grid-area: f3;
+            #foot1{
+                grid-area: f1;
+            }
+        
+            #foot2{
+                grid-area: f2;
+            }
+        
+            #foot3{
+                grid-area: f3;
+            }
         }
+
 
         
     }
-
-    
-
-    
-    
 }
+    
+
+    
+    
+
 
 
 

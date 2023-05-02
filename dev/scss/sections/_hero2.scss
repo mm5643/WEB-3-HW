@@ -3,34 +3,46 @@
 ============= */
 
 #hero2{
-    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "l1 l1 l1 l2"
+    "l3 l3 l3 l4";
     background-color: #330F0A;
     -webkit-text-fill-color: white;
     
-    aside{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero22 .";
-
-        >div{
-            grid-area: hero22;
-        }
-
-    }
+    
 }
 
 @include md {
     #hero2{
-        display: grid;
-        grid-template-columns: 50% auto;
-
+        grid-template-columns: repeat(8,1fr);
+        grid-template-areas: 
+        "l1 l1 . l2 l3 l3 . l4";
     }
 }
 
 @include xl {
     #hero2{
-        display: grid;
-        grid-template-columns: 50% auto;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-areas: 
+        "l1 l1 . l2 l3 l3 . l4";
 
     }
+}
+
+#l1{
+    grid-area: l1;
+}
+
+#l2{
+    grid-area: l2;
+}
+
+#l3{
+    grid-area: l3;
+}
+
+#l4{
+    grid-area: l4;
 }

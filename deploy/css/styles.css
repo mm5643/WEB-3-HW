@@ -335,6 +335,11 @@ ul li {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .tractor-images {
   width: 100%;
 }
@@ -377,12 +382,16 @@ header {
   background-color: #330F0A;
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header";
-  padding-top: 10px;
-  padding-bottom: 10px;
+  grid-template-areas: ". header.";
 }
 header > div {
   grid-area: header;
+  padding: 0px;
+  margin: 0px;
+}
+header #logo {
+  width: 200px;
+  height: 200px;
 }
 
 /* =============

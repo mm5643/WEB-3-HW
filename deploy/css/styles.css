@@ -394,10 +394,6 @@ header {
 header > div {
   grid-area: header;
 }
-header #logo {
-  width: 200px;
-  height: 200px;
-}
 
 /* =============
     Footer
@@ -407,13 +403,14 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
   background-color: #330F0A;
-  -webkit-text-fill-color: white;
+  color: white;
 }
 footer > div {
   grid-area: footer;
 }
 footer > div form input {
   background-color: var(--flazlight);
+  padding: 4px 14px;
 }
 footer > div form button {
   padding: 4px 14px;

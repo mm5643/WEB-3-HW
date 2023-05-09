@@ -408,6 +408,9 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div ul {
+  display: flex;
+}
 footer > div form input {
   background-color: var(--flazlight);
   padding: 4px 14px;
@@ -579,7 +582,6 @@ form > div {
   background-color: var(--ferngreenlight);
   color: white;
   padding: 4px 12px;
-  text-emphasis: none;
 }
 #hero4 ul {
   display: grid;

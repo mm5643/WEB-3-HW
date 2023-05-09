@@ -16,8 +16,10 @@ footer{
 
         ul{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            align-items: flex-start;
+            li{
+                margin-right: 16px;
+            }
 
         }
         

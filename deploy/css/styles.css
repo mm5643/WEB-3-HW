@@ -348,6 +348,13 @@ h1, h2, h3, h4, h5, p {
   width: 30%;
 }
 
+:root {
+  --blackbean: #330F0A;
+  --ferngreen: #65743A;
+  --ferngreenlight: #9AB155;
+  --flazlight: #FFF0AF;
+}
+
 /* =============
     Typography
 ============= */
@@ -544,9 +551,16 @@ form > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero44 .";
+  margin: 16px 0px, 16px 0px;
 }
 #hero4 > div {
   grid-area: hero44;
+  background-color: var(--flazlight);
+}
+#hero4 > div a {
+  background-color: var(--ferngreenlight);
+  color: white;
+  padding: 5px 10px;
 }
 #hero4 ul {
   display: grid;

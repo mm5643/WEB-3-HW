@@ -517,6 +517,9 @@ form > div {
   background-color: #330F0A;
   -webkit-text-fill-color: white;
 }
+#hero2 img {
+  border-radius: 100%;
+}
 #hero2 a {
   background-color: var(--ferngreenlight);
   color: white;

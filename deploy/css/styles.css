@@ -416,6 +416,7 @@ footer > div ul {
 footer > div form input {
   background-color: var(--flazlight);
   padding: 4px 14px;
+  border: none;
 }
 footer > div form button {
   padding: 4px 14px;
@@ -607,10 +608,10 @@ form > div {
   gap: 16px;
 }
 #hero4 ul h4 {
-  padding: 16px;
+  padding: 8px 16px;
 }
 #hero4 ul p {
-  padding: 16px;
+  padding: 8px 16px;
 }
 @media (min-width: 768px) {
   #hero4 ul {

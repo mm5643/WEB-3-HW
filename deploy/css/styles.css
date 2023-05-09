@@ -462,9 +462,13 @@ footer > div form button {
     hero0
 ============= */
 form {
+  margin: 16px 16px;
   display: grid;
   grid-template-columns: 85% 15%;
   grid-template-areas: ". . form11 .";
+}
+form input {
+  border: none;
 }
 form button {
   border: none;
@@ -475,6 +479,12 @@ form > div {
   grid-area: form11;
 }
 
+@media (min-width: 1200px) {
+  > div {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+  }
+}
 /* =============
     hero1
 ============= */
@@ -516,6 +526,7 @@ form > div {
   grid-template-areas: "l1 l1 l1 l2" "l3 l3 l3 l4";
   background-color: #330F0A;
   -webkit-text-fill-color: white;
+  margin: 16px 0px;
 }
 #hero2 img {
   border-radius: 100%;
@@ -534,6 +545,7 @@ form > div {
   #hero2 {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: "l1 l1 . l2 l3 l3 . l4";
+    gap: 16px;
   }
 }
 @media (min-width: 1200px) {

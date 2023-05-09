@@ -3,6 +3,13 @@
 ============= */
 
 form{
+
+    margin: 16px 16px;
+
+    input{
+        border: none;
+
+    }
     button{
         border: none;
         padding: 6px 11px;
@@ -17,7 +24,14 @@ form{
     }
 }
 
+@include xl{
+    >div{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+    }
+    
 
+}
 
 
 

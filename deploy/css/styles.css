@@ -410,6 +410,8 @@ footer > div {
 }
 footer > div ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer > div form input {
   background-color: var(--flazlight);
@@ -485,9 +487,11 @@ form > div {
 }
 #herohalf #hh1 {
   background-color: var(--ferngreen);
+  padding: 16px 16px;
 }
 #herohalf #hh2 {
   background-color: var(--ferngreenlight);
+  padding: 16px 16px;
 }
 
 @media (min-width: 768px) {
@@ -511,6 +515,15 @@ form > div {
   grid-template-areas: "l1 l1 l1 l2" "l3 l3 l3 l4";
   background-color: #330F0A;
   -webkit-text-fill-color: white;
+}
+#hero2 a {
+  background-color: var(--ferngreenlight);
+  color: white;
+  padding: 4px 12px;
+  margin-left: 16px;
+}
+#hero2 h3 {
+  padding: 16px 16px;
 }
 
 @media (min-width: 768px) {
@@ -573,6 +586,7 @@ form > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero44 .";
+  padding: 10px 0px 10px 0px;
 }
 #hero4 > div {
   grid-area: hero44;
@@ -582,10 +596,21 @@ form > div {
   background-color: var(--ferngreenlight);
   color: white;
   padding: 4px 12px;
+  margin: 16px;
+}
+#hero4 > div h2 {
+  padding: 16px;
+  color: grey;
 }
 #hero4 ul {
   display: grid;
   gap: 16px;
+}
+#hero4 ul h4 {
+  padding: 16px;
+}
+#hero4 ul p {
+  padding: 16px;
 }
 @media (min-width: 768px) {
   #hero4 ul {

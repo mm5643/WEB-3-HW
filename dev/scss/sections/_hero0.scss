@@ -3,6 +3,11 @@
 ============= */
 
 form{
+    button{
+        border: none;
+        padding: 6px 11px;
+        background-color: var(--ferngreenlight);
+    }
     display: grid;
     grid-template-columns: 85% 15%;
     grid-template-areas: ". . form11 .";

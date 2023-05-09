@@ -6,16 +6,18 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". hero44 .";
-    margin: 16px 0px,16px 0px;
     
+   
     >div{
         grid-area: hero44;
         background-color: var(--flazlight);
-    a{
-        background-color: var(--ferngreenlight);
-        color: white;
-        padding: 5px 10px;
-    }
+        
+        a{
+            background-color: var(--ferngreenlight);
+            color: white;
+            padding: 4px 12px;
+            text-emphasis: none;
+        }
 
     }
     

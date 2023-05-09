@@ -7,10 +7,23 @@
     grid-template-columns: 100%;
 }
 
+#herohalf{
+    color: white;
+    #hh1{
+        background-color: var(--ferngreen);
+    }
+
+    #hh2{
+        background-color: var(--ferngreenlight);
+    }
+}
+
+
 @include md {
     #herohalf{
         display: grid;
         grid-template-columns: 30% auto;
+
     }
 
 }

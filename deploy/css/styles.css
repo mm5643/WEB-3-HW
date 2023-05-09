@@ -393,8 +393,6 @@ header {
 }
 header > div {
   grid-area: header;
-  padding: 0px;
-  margin: 0px;
 }
 header #logo {
   width: 200px;
@@ -413,6 +411,15 @@ footer {
 }
 footer > div {
   grid-area: footer;
+}
+footer > div form input {
+  background-color: var(--flazlight);
+}
+footer > div form button {
+  padding: 4px 14px;
+  background-color: var(--ferngreenlight);
+  color: white;
+  border: none;
 }
 @media (min-width: 768px) {
   footer > div {
@@ -456,6 +463,11 @@ form {
   grid-template-columns: 85% 15%;
   grid-template-areas: ". . form11 .";
 }
+form button {
+  border: none;
+  padding: 6px 11px;
+  background-color: var(--ferngreenlight);
+}
 form > div {
   grid-area: form11;
 }
@@ -466,6 +478,16 @@ form > div {
 #herohalf1 {
   display: grid;
   grid-template-columns: 100%;
+}
+
+#herohalf {
+  color: white;
+}
+#herohalf #hh1 {
+  background-color: var(--ferngreen);
+}
+#herohalf #hh2 {
+  background-color: var(--ferngreenlight);
 }
 
 @media (min-width: 768px) {
@@ -551,7 +573,6 @@ form > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero44 .";
-  margin: 16px 0px, 16px 0px;
 }
 #hero4 > div {
   grid-area: hero44;
@@ -560,7 +581,8 @@ form > div {
 #hero4 > div a {
   background-color: var(--ferngreenlight);
   color: white;
-  padding: 5px 10px;
+  padding: 4px 12px;
+  text-emphasis: none;
 }
 #hero4 ul {
   display: grid;

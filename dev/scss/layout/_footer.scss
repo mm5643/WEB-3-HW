@@ -11,6 +11,19 @@ footer{
     -webkit-text-fill-color: white;
 
     >div{
+
+        form{
+
+            input{
+                background-color: var(--flazlight);
+            }
+            button{
+                padding: 4px 14px;
+                background-color: var(--ferngreenlight);
+                color: white;
+                border: none;
+            }
+        }
         grid-area: footer;
         @include md { 
             display: grid;

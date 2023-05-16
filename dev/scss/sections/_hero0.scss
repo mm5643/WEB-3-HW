@@ -21,16 +21,17 @@ form{
 
     >div{
         grid-area: form11;
+
+        @include xl{
+
+            display: grid;
+            grid-template-columns: auto 1200px auto;
+    
+    }
+    
     }
 }
 
-@include xl{
-    >div{
-        display: grid;
-        grid-template-columns: auto 1200px auto;
-
-    }
-}
 
 
 

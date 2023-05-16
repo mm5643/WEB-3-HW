@@ -4,6 +4,7 @@
 
 
 header{
+    padding: 16px;
     background-color: #330F0A;
     display: grid;
     grid-template-columns: 16px auto auto 16px;
@@ -12,22 +13,42 @@ header{
     >div{
         grid-area: header;
 
-        img{
-            padding: 16px 0;
-            width: 40px;
-            height: 39px;
-            background-size: cover;
-        }
-        
-        //#logo{
-          //  width: 200px;
-            //height: 200px;
-        //}
  
     }
 
+    #logo{
+        background-image: url("../img/companylogo.png");
+        width: 52px;
+        height: 39px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        @include md{
+            width: 61px;
+            height: 46px;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        
+        }
+
+        @include xl{
+            width: 83px;
+            height: 63px;
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+        
+            
+        }
+    }
+
+
     
 }
+
+
 
 
 

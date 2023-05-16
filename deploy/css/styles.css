@@ -358,6 +358,10 @@ h1, h2, h3, h4, h5, p {
 /* =============
     Typography
 ============= */
+address {
+  text-decoration: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -390,6 +394,7 @@ textarea {
     Header
 ============= */
 header {
+  padding: 16px;
   background-color: #330F0A;
   display: grid;
   grid-template-columns: 16px auto auto 16px;
@@ -398,11 +403,31 @@ header {
 header > div {
   grid-area: header;
 }
-header > div img {
-  padding: 16px 0;
-  width: 40px;
+header #logo {
+  background-image: url("../img/companylogo.png");
+  width: 52px;
   height: 39px;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  header #logo {
+    width: 61px;
+    height: 46px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1200px) {
+  header #logo {
+    width: 83px;
+    height: 63px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 /* =============
@@ -414,6 +439,17 @@ footer {
   grid-template-areas: ". footer .";
   background-color: #330F0A;
   color: white;
+  padding: 16px 0;
+}
+footer h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+footer address {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.75rem;
 }
 footer > div {
   grid-area: footer;
@@ -490,16 +526,32 @@ form button {
 form > div {
   grid-area: form11;
 }
-
 @media (min-width: 1200px) {
-  > div {
+  form > div {
     display: grid;
     grid-template-columns: auto 1200px auto;
   }
 }
+
 /* =============
     hero1
 ============= */
+#hero1 h4 {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 1.125rem;
+}
+#hero1 h3 {
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 0.875rem;
+}
+#hero1 p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 1rem;
+}
+
 #herohalf1 {
   display: grid;
   grid-template-columns: 100%;
@@ -515,6 +567,11 @@ form > div {
 #herohalf #hh2 {
   background-color: var(--ferngreenlight);
   padding: 16px 16px;
+}
+#herohalf #hh2 h3 {
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -533,31 +590,41 @@ form > div {
     hero2
 ============= */
 #hero2 {
+  gap: 16px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: "l1 l1 l1 l2" "l3 l3 l3 l4";
   background-color: #330F0A;
   -webkit-text-fill-color: white;
   margin: 16px 0px;
+  padding: 16px 16px;
 }
 #hero2 img {
   border-radius: 100%;
+  padding: 0 16px;
 }
 #hero2 a {
   background-color: var(--ferngreenlight);
   color: white;
   padding: 4px 12px;
-  margin-left: 16px;
+  margin-top: 16px;
 }
 #hero2 h3 {
-  padding: 16px 16px;
+  font-weight: 400;
+  font-size: rem-cacl(22);
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 768px) {
   #hero2 {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas: "l1 l1 . l2 l3 l3 . l4";
-    gap: 16px;
+    margin: 16px 16px;
+  }
+  #hero2 #l3 h3 {
+    margin-bottom: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -589,7 +656,20 @@ form > div {
   display: grid;
   grid-template-columns: 100%;
   grid-template-areas: "gallery";
-  grid-template-columns: repeat();
+}
+#hero3 #image1 {
+  background-image: url("../img/Tractor-2.jpeg");
+  width: 390px;
+  height: 361px;
+  background-size: cover;
+  background-position: center;
+}
+#hero3 #image2 {
+  background-image: url("../img/Tractor-3.png");
+  width: 390px;
+  height: 482px;
+  background-size: cover;
+  background-position: center;
 }
 #hero3 > div {
   grid-area: gallery;
@@ -600,11 +680,37 @@ form > div {
     display: grid;
     grid-template-columns: 50% auto;
   }
+  #hero3 #image1 {
+    background-image: url("../img/Tractor-2.jpeg");
+    width: 420px;
+    height: 597px;
+    background-size: cover;
+    background-position: center;
+  }
+  #hero3 #image2 {
+    background-image: url("../img/Tractor-3.png");
+    width: 410px;
+    height: 597px;
+    background-size: cover;
+  }
 }
 @media (min-width: 1200px) {
   #hero3 {
     display: grid;
     grid-template-columns: 63% auto;
+  }
+  #hero3 #image1 {
+    background-image: url("../img/Tractor-2.jpeg");
+    width: 900px;
+    height: 625px;
+    background-size: cover;
+    background-position: center;
+  }
+  #hero3 #image2 {
+    background-image: url("../img/Tractor-3.png");
+    width: 526px;
+    height: 625px;
+    background-size: cover;
   }
 }
 /* =============
@@ -615,6 +721,21 @@ form > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero44 .";
   padding: 16px 0 16px 0;
+}
+#hero4 h2 {
+  font-weight: 400;
+  font-size: rec-calc(20);
+}
+#hero4 h4 {
+  font-weight: 600;
+  font-size: 1.6875rem;
+  line-height: 30px;
+}
+#hero4 p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 15px;
 }
 #hero4 > div {
   grid-area: hero44;
@@ -634,6 +755,7 @@ form > div {
   gap: 16px;
 }
 #hero4 ul li {
+  padding-bottom: 30px;
   background-size: 381px 321px;
   background-color: var(--flazlight);
 }

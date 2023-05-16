@@ -9,6 +9,20 @@ footer{
     ". footer .";
     background-color: #330F0A;
     color: white;
+    padding: 16px 0;
+
+    h4{
+        font-weight: 600;
+        font-size: rem-calc(20);
+        margin-bottom: 5px;
+    
+    }
+
+    address{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: rem-calc(12);
+    }
 
    
     

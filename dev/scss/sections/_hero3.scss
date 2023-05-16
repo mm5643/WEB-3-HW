@@ -2,32 +2,88 @@
     hero3
 ============= */
 
+
+
+
 #hero3{
+    #image1{
+        background-image: url("../img/Tractor-2.jpeg");
+        width: 390px;
+        height: 361px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #image2{
+        background-image: url("../img/Tractor-3.png");
+        width: 390px;
+        height: 482px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
     display: grid;
     grid-template-columns: 100%;
     grid-template-areas: "gallery";
-    grid-template-columns: repeat();
+    
 
     >div{
         grid-area: gallery;
     }
 
+
 }
 
-@include md {
+@include md{
     #hero3{
         display: grid;
         grid-template-columns: 50% auto;
 
-    }
+        #image1{
+            background-image: url("../img/Tractor-2.jpeg");
+            width: 420px;
+            height: 597px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #image2{
+            background-image: url("../img/Tractor-3.png");
+            width: 410px;
+            height: 597px;
+            background-size: cover;
+
+        }
     
+    }
 }
 
-@include xl {
+@include xl{
     #hero3{
         display: grid;
         grid-template-columns: 63% auto;
 
+        #image1{
+            background-image: url("../img/Tractor-2.jpeg");
+            width: 900px;
+            height: 625px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        #image2{
+            background-image: url("../img/Tractor-3.png");
+            width: 526px;
+            height: 625px;
+            background-size: cover;
+    
+        }
+
     }
+
+
+
     
 }
+

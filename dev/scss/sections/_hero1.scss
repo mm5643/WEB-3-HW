@@ -2,6 +2,27 @@
     hero1
 ============= */
 
+#hero1{
+    h4{
+        font-weight: 700;
+        line-height: 20px;
+        font-size: rem-calc(18);
+    }
+
+    h3{
+        font-weight: 600;
+        line-height: 20px;
+        font-size: rem-calc(14);
+    }
+
+    p{
+        font-weight: 400;
+        line-height: 20px;
+        font-size: rem-calc(16);
+    }
+}
+
+
 #herohalf1{
     display: grid;
     grid-template-columns: 100%;
@@ -17,6 +38,12 @@
     #hh2{
         background-color: var(--ferngreenlight);
         padding: 16px 16px;
+
+        h3{
+            font-weight: 600;
+            line-height: 20px;
+            font-size: rem-calc(16);
+        }
     }
 }
 

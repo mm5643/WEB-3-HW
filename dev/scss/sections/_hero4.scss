@@ -6,12 +6,13 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". hero44 .";
-    padding: 10px 0px 10px 0px;
+    padding: 16px 0 16px 0;
     
    
     >div{
         grid-area: hero44;
-        background-color: var(--flazlight);
+        
+        
         
         a{
             background-color: var(--ferngreenlight);
@@ -29,6 +30,10 @@
     }
     
     ul{
+        li{
+            background-size: 381px 321px;
+            background-color: var(--flazlight);
+        }
         display: grid;
         gap: 16px;
 

@@ -15,6 +15,7 @@ footer{
         font-weight: 600;
         font-size: rem-calc(20);
         margin-bottom: 5px;
+        
     
     }
 
@@ -22,6 +23,16 @@ footer{
         text-decoration: none;
         font-weight: 400;
         font-size: rem-calc(12);
+        color: var(--flazlight);
+    }
+
+    a:link, a:visited{
+        color: white;
+        transition: 0.25s;
+
+        &:hover, &:active{
+            color: var(--ferngreenlight);
+        } 
     }
 
    

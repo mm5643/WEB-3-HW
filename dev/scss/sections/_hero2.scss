@@ -3,77 +3,92 @@
 ============= */
 
 #hero2{
-    gap: 16px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-areas: 
-    "l1 l1 l1 l2"
-    "l3 l3 l3 l4";
+
     background-color: #330F0A;
     -webkit-text-fill-color: white;
     margin: 16px 0px;
     padding: 16px 16px;
 
-    img{
-        border-radius: 100%;
-        padding: 0 16px;
-    }
-
-    a{
-        background-color: var(--ferngreenlight);
-            color: white;
-            padding: 4px 12px;
-            margin-top: 16px;
-    }
-
-    h3{
-
-        font-weight: 400;
-        font-size: rem-cacl(22);
-        line-height: 25px;
-        text-align: left;
-        margin-bottom: 16px;
-    }
-    
-}
-
-@include md {
-    #hero2{
-        grid-template-columns: repeat(8,1fr);
+    >div{
+        display: flex;
+        gap: 16px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
         grid-template-areas: 
-        "l1 l1 . l2 l3 l3 . l4";
-        margin: 16px 16px;
-    
-    #l3{
-        h3{
-            margin-bottom: 40px;
+        "l1 l1 l1 l2"
+        "l3 l3 l3 l4";
+
+
+        }
+
+        @include md {
+            #hero2{
+
+                margin: 16px 16px;
+            
+            #l3{
+                h3{
+                    margin-bottom: 40px;
+                }
+            }
+        
+            }
+
+            >div{
+                grid-template-columns: repeat(8,1fr);
+                grid-template-areas: 
+                "l1 l1 . l2 l3 l3 . l4";
+
+            }
+        
+        @include xl {
+            #hero2{
+                grid-template-columns: repeat(8,1fr);
+                grid-template-areas: 
+                "l1 l1 . l2 l3 l3 . l4";
+        
+            }
         }
     }
 
-    }
+        img{
+            border-radius: 100%;
+            padding: 0 16px;
+        }
+
+        a{
+            background-color: var(--ferngreenlight);
+            color: white;
+            padding: 4px 12px;
+            margin-top: 16px;
+        }
+
+        h3{
+
+            font-weight: 400;
+            font-size: rem-cacl(22);
+            line-height: 25px;
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+
+        #l1{
+            grid-area: l1;
+        }
+
+        #l2{
+            grid-area: l2;
+        }
+
+        #l3{
+            grid-area: l3;
+        }
+
+        #l4{
+            grid-area: l4;
+        }
+    
 }
 
-@include xl {
-    #hero2{
-        grid-template-columns: repeat(8,1fr);
-        grid-template-areas: 
-        "l1 l1 . l2 l3 l3 . l4";
 
-    }
-}
-
-#l1{
-    grid-area: l1;
-}
-
-#l2{
-    grid-area: l2;
-}
-
-#l3{
-    grid-area: l3;
-}
-
-#l4{
-    grid-area: l4;
-}

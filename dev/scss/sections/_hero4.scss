@@ -25,12 +25,15 @@
         line-height: 20px;
         margin-bottom: 15px;
     }
+
+    
     
    
     >div{
         grid-area: hero44;
           
         a{
+            text-decoration: none;
             background-color: var(--ferngreenlight);
             color: white;
             padding: 4px 12px;
@@ -43,6 +46,8 @@
             color: grey;
         }
 
+        
+
     }
     
     ul{
@@ -50,6 +55,34 @@
             padding-bottom: 30px;
             background-size: 381px 321px;
             background-color: var(--flazlight);
+
+            // width: 321px;
+            // height: 381px;
+            // background-size: cover;
+            // background-position: center;    
+            
+            #t1{
+                // grid-area: t1;
+                // background-image: url("../img/Tractor-4.jpeg");
+
+
+            }
+        
+            #t2{
+                // grid-area: t2;
+            }
+        
+            #t3{
+                // grid-area: t3;
+            }
+        
+            #t4{
+                // grid-area: t4;
+            }
+        
+            #t5{
+                // grid-area: t5;
+            }
         }
         display: grid;
         gap: 16px;
@@ -61,6 +94,8 @@
         p{
             padding: 8px 16px;
         }
+
+        
 
 
         @include md{
@@ -99,6 +134,7 @@
 
             #t1{
                 grid-area: t1;
+
             }
         
             #t2{
